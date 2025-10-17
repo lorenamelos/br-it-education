@@ -1,0 +1,124 @@
+{
+  "aba": "G6",
+  "indicador": "Uso de IA Generativa (ChatGPT, Copilot, Gemini) em Pesquisas Escolares",
+  "fonte": "TIC Educação 2024 - Alunos",
+  "brasil": {
+    "total_alunos": 24478555,
+    "usam_ia": 10879224,
+    "nao_usam": 13599331,
+    "percentual": 44.4
+  },
+  "etapas": [
+    {
+      "etapa": "Anos iniciais do Ensino Fundamental (4º e 5º ano)",
+      "usam_ia": 1717598,
+      "nao_usam": 6521733,
+      "total": 8239331,
+      "percentual": 20.8
+    },
+    {
+      "etapa": "Anos finais do Ensino Fundamental",
+      "usam_ia": 4000644,
+      "nao_usam": 5223456,
+      "total": 9224100,
+      "percentual": 43.4
+    },
+    {
+      "etapa": "Ensino Médio",
+      "usam_ia": 5160982,
+      "nao_usam": 1854142,
+      "total": 7015124,
+      "percentual": 73.6
+    }
+  ],
+  "regioes": [
+    {
+      "regiao": "Norte",
+      "usam_ia": 1011503,
+      "nao_usam": 1576388,
+      "total": 2587891,
+      "percentual": 39.1
+    },
+    {
+      "regiao": "Nordeste",
+      "usam_ia": 2663005,
+      "nao_usam": 3539327,
+      "total": 6202332,
+      "percentual": 42.9
+    },
+    {
+      "regiao": "Sudeste",
+      "usam_ia": 4625040,
+      "nao_usam": 5335419,
+      "total": 9960459,
+      "percentual": 46.4
+    },
+    {
+      "regiao": "Sul",
+      "usam_ia": 1670310,
+      "nao_usam": 1909645,
+      "total": 3579955,
+      "percentual": 46.7
+    },
+    {
+      "regiao": "Centro-Oeste",
+      "usam_ia": 909366,
+      "nao_usam": 1238552,
+      "total": 2147918,
+      "percentual": 42.3
+    }
+  ],
+  "faixa_etaria": [
+    {
+      "faixa_etaria": "De 9 a 10 anos",
+      "usam_ia": 1228404,
+      "nao_usam": 4566395,
+      "total": 5794799,
+      "percentual": 21.2
+    },
+    {
+      "faixa_etaria": "De 11 a 12 anos",
+      "usam_ia": 1521567,
+      "nao_usam": 4225384,
+      "total": 5746951,
+      "percentual": 26.5
+    },
+    {
+      "faixa_etaria": "De 13 a 14 anos",
+      "usam_ia": 2357800,
+      "nao_usam": 2337441,
+      "total": 4695241,
+      "percentual": 50.2
+    },
+    {
+      "faixa_etaria": "De 15 a 17 anos",
+      "usam_ia": 4633378,
+      "nao_usam": 2105042,
+      "total": 6738420,
+      "percentual": 68.8
+    },
+    {
+      "faixa_etaria": "De 18 anos ou mais",
+      "usam_ia": 1138076,
+      "nao_usam": 365068,
+      "total": 1503144,
+      "percentual": 75.7
+    }
+  ],
+  "sexo": [
+    {
+      "sexo": "Feminino",
+      "usam_ia": 5472105,
+      "nao_usam": 7669575,
+      "total": 13141680,
+      "percentual": 41.6
+    },
+    {
+      "sexo": "Masculino",
+      "usam_ia": 5407119,
+      "nao_usam": 5929756,
+      "total": 11336875,
+      "percentual": 47.7
+    }
+  ]
+}

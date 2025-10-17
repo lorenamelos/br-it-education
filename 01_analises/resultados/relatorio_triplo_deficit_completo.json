@@ -1,0 +1,504 @@
+{
+  "metadados": {
+    "data_geracao": "2025-10-05T21:22:37.608265",
+    "fonte": "TIC Educação 2024",
+    "analises_incluidas": [
+      "a8",
+      "a3",
+      "b4a",
+      "g6",
+      "h4d"
+    ]
+  },
+  "pilares": {
+    "infraestrutura": {
+      "pct_acesso": 58.8,
+      "pct_velocidade": 76.6,
+      "pct_proporcao": 23.9,
+      "indice": 10.764751199999997
+    },
+    "orientacao": {
+      "pct_orientacao": 19.0,
+      "indice": 19.0
+    },
+    "uso": {
+      "pct_uso": 44.4,
+      "indice": 44.4
+    }
+  },
+  "triplo_deficit": {
+    "indice_prontidao": 24.721583733333333,
+    "deficit_infraestrutura": 89.23524880000001,
+    "deficit_orientacao": 81.0,
+    "deficit_uso": 55.6,
+    "deficit_total": 75.27841626666667
+  },
+  "paradoxos": [
+    {
+      "tipo": "Uso > Infraestrutura",
+      "gap": 33.6352488,
+      "interpretacao": "Uso acontece fora do ambiente escolar"
+    },
+    {
+      "tipo": "Uso > Orientação",
+      "gap": 25.4,
+      "interpretacao": "Aprendizado autônomo sem orientação"
+    },
+    {
+      "tipo": "Orientação > Infraestrutura",
+      "gap": 8.235248800000003,
+      "interpretacao": "Teoria sem prática por falta de infraestrutura"
+    }
+  ],
+  "dados_brutos": {
+    "a8": {
+      "aba": "A8",
+      "indicador": "Acesso a Computador + Internet para Alunos",
+      "fonte": "TIC Educação 2024 - Escolas",
+      "brasil": {
+        "total_escolas": 129973,
+        "com_acesso": 76419,
+        "sem_acesso": 53554,
+        "pct_com_acesso": 58.8,
+        "pct_sem_acesso": 41.2
+      },
+      "regioes": [
+        {
+          "regiao": "Norte",
+          "com_acesso": 5517,
+          "sem_acesso": 14008,
+          "total": 19525,
+          "percentual": 28.3
+        },
+        {
+          "regiao": "Nordeste",
+          "com_acesso": 20546,
+          "sem_acesso": 29035,
+          "total": 49581,
+          "percentual": 41.4
+        },
+        {
+          "regiao": "Sudeste",
+          "com_acesso": 30634,
+          "sem_acesso": 6844,
+          "total": 37478,
+          "percentual": 81.7
+        },
+        {
+          "regiao": "Sul",
+          "com_acesso": 14034,
+          "sem_acesso": 1629,
+          "total": 15663,
+          "percentual": 89.6
+        },
+        {
+          "regiao": "Centro-Oeste",
+          "com_acesso": 5689,
+          "sem_acesso": 2037,
+          "total": 7726,
+          "percentual": 73.6
+        }
+      ],
+      "areas": [
+        {
+          "area": "Urbana",
+          "com_acesso": 63094,
+          "sem_acesso": 19927,
+          "total": 83021,
+          "percentual": 76.0
+        },
+        {
+          "area": "Rural",
+          "com_acesso": 13325,
+          "sem_acesso": 33627,
+          "total": 46952,
+          "percentual": 28.4
+        }
+      ]
+    },
+    "a3": {
+      "aba": "A3_1",
+      "indicador": "Velocidade da Principal Conexão de Internet",
+      "fonte": "TIC Educação 2024 - Escolas",
+      "brasil": {
+        "total_escolas": 99018,
+        "conexao_rapida": 59027,
+        "conexao_media": 16833,
+        "conexao_lenta": 23158,
+        "conexao_adequada_ia": 75860,
+        "pct_adequada": 76.6,
+        "pct_rapida": 59.6,
+        "pct_media": 17.0,
+        "pct_lenta": 23.4
+      },
+      "regioes": [
+        {
+          "regiao": "Norte",
+          "total": 12909,
+          "conexao_adequada": 6100,
+          "conexao_inadequada": 6809,
+          "percentual_adequada": 47.3
+        },
+        {
+          "regiao": "Nordeste",
+          "total": 38097,
+          "conexao_adequada": 28715,
+          "conexao_inadequada": 9382,
+          "percentual_adequada": 75.4
+        },
+        {
+          "regiao": "Sudeste",
+          "total": 27828,
+          "conexao_adequada": 23354,
+          "conexao_inadequada": 4474,
+          "percentual_adequada": 83.9
+        },
+        {
+          "regiao": "Sul",
+          "total": 13932,
+          "conexao_adequada": 12222,
+          "conexao_inadequada": 1710,
+          "percentual_adequada": 87.7
+        },
+        {
+          "regiao": "Centro-Oeste",
+          "total": 6253,
+          "conexao_adequada": 5469,
+          "conexao_inadequada": 784,
+          "percentual_adequada": 87.5
+        }
+      ],
+      "areas": [
+        {
+          "area": "Urbana",
+          "total": 67201,
+          "conexao_adequada": 60104,
+          "conexao_inadequada": 7097,
+          "percentual_adequada": 89.4
+        },
+        {
+          "area": "Rural",
+          "total": 31819,
+          "conexao_adequada": 15757,
+          "conexao_inadequada": 16062,
+          "percentual_adequada": 49.5
+        }
+      ]
+    },
+    "b4a": {
+      "aba": "B4A",
+      "indicador": "Proporção Alunos por Computador Disponível",
+      "fonte": "TIC Educação 2024 - Escolas",
+      "brasil": {
+        "total_escolas": 115218,
+        "proporcao_adequada": 27499,
+        "proporcao_inadequada": 24460,
+        "sem_computador": 63259,
+        "pct_adequada": 23.9,
+        "pct_inadequada": 21.2,
+        "pct_sem": 54.9
+      },
+      "regioes": [
+        {
+          "regiao": "Norte",
+          "total": 13087,
+          "proporcao_adequada": 1947,
+          "proporcao_inadequada": 4021,
+          "sem_computador": 7119,
+          "percentual_adequada": 14.9
+        },
+        {
+          "regiao": "Nordeste",
+          "total": 42897,
+          "proporcao_adequada": 4611,
+          "proporcao_inadequada": 8025,
+          "sem_computador": 30261,
+          "percentual_adequada": 10.7
+        },
+        {
+          "regiao": "Sudeste",
+          "total": 36410,
+          "proporcao_adequada": 12870,
+          "proporcao_inadequada": 8793,
+          "sem_computador": 14747,
+          "percentual_adequada": 35.3
+        },
+        {
+          "regiao": "Sul",
+          "total": 15323,
+          "proporcao_adequada": 6746,
+          "proporcao_inadequada": 1233,
+          "sem_computador": 7344,
+          "percentual_adequada": 44.0
+        },
+        {
+          "regiao": "Centro-Oeste",
+          "total": 7501,
+          "proporcao_adequada": 1326,
+          "proporcao_inadequada": 2388,
+          "sem_computador": 3787,
+          "percentual_adequada": 17.7
+        }
+      ],
+      "areas": [
+        {
+          "area": "Urbana",
+          "total": 82882,
+          "proporcao_adequada": 22957,
+          "proporcao_inadequada": 19144,
+          "sem_computador": 40781,
+          "percentual_adequada": 27.7
+        },
+        {
+          "area": "Rural",
+          "total": 32334,
+          "proporcao_adequada": 4542,
+          "proporcao_inadequada": 5314,
+          "sem_computador": 22478,
+          "percentual_adequada": 14.0
+        }
+      ]
+    },
+    "g6": {
+      "aba": "G6",
+      "indicador": "Uso de IA Generativa (ChatGPT, Copilot, Gemini) em Pesquisas Escolares",
+      "fonte": "TIC Educação 2024 - Alunos",
+      "brasil": {
+        "total_alunos": 24478555,
+        "usam_ia": 10879224,
+        "nao_usam": 13599331,
+        "percentual": 44.4
+      },
+      "etapas": [
+        {
+          "etapa": "Anos iniciais do Ensino Fundamental (4º e 5º ano)",
+          "usam_ia": 1717598,
+          "nao_usam": 6521733,
+          "total": 8239331,
+          "percentual": 20.8
+        },
+        {
+          "etapa": "Anos finais do Ensino Fundamental",
+          "usam_ia": 4000644,
+          "nao_usam": 5223456,
+          "total": 9224100,
+          "percentual": 43.4
+        },
+        {
+          "etapa": "Ensino Médio",
+          "usam_ia": 5160982,
+          "nao_usam": 1854142,
+          "total": 7015124,
+          "percentual": 73.6
+        }
+      ],
+      "regioes": [
+        {
+          "regiao": "Norte",
+          "usam_ia": 1011503,
+          "nao_usam": 1576388,
+          "total": 2587891,
+          "percentual": 39.1
+        },
+        {
+          "regiao": "Nordeste",
+          "usam_ia": 2663005,
+          "nao_usam": 3539327,
+          "total": 6202332,
+          "percentual": 42.9
+        },
+        {
+          "regiao": "Sudeste",
+          "usam_ia": 4625040,
+          "nao_usam": 5335419,
+          "total": 9960459,
+          "percentual": 46.4
+        },
+        {
+          "regiao": "Sul",
+          "usam_ia": 1670310,
+          "nao_usam": 1909645,
+          "total": 3579955,
+          "percentual": 46.7
+        },
+        {
+          "regiao": "Centro-Oeste",
+          "usam_ia": 909366,
+          "nao_usam": 1238552,
+          "total": 2147918,
+          "percentual": 42.3
+        }
+      ],
+      "faixa_etaria": [
+        {
+          "faixa_etaria": "De 9 a 10 anos",
+          "usam_ia": 1228404,
+          "nao_usam": 4566395,
+          "total": 5794799,
+          "percentual": 21.2
+        },
+        {
+          "faixa_etaria": "De 11 a 12 anos",
+          "usam_ia": 1521567,
+          "nao_usam": 4225384,
+          "total": 5746951,
+          "percentual": 26.5
+        },
+        {
+          "faixa_etaria": "De 13 a 14 anos",
+          "usam_ia": 2357800,
+          "nao_usam": 2337441,
+          "total": 4695241,
+          "percentual": 50.2
+        },
+        {
+          "faixa_etaria": "De 15 a 17 anos",
+          "usam_ia": 4633378,
+          "nao_usam": 2105042,
+          "total": 6738420,
+          "percentual": 68.8
+        },
+        {
+          "faixa_etaria": "De 18 anos ou mais",
+          "usam_ia": 1138076,
+          "nao_usam": 365068,
+          "total": 1503144,
+          "percentual": 75.7
+        }
+      ],
+      "sexo": [
+        {
+          "sexo": "Feminino",
+          "usam_ia": 5472105,
+          "nao_usam": 7669575,
+          "total": 13141680,
+          "percentual": 41.6
+        },
+        {
+          "sexo": "Masculino",
+          "usam_ia": 5407119,
+          "nao_usam": 5929756,
+          "total": 11336875,
+          "percentual": 47.7
+        }
+      ]
+    },
+    "h4d": {
+      "aba": "H4D",
+      "indicador": "Alunos que receberam orientação de professores sobre uso de IA (últimos 3 meses)",
+      "fonte": "TIC Educação 2024 - Alunos",
+      "brasil": {
+        "total_alunos": 29066112,
+        "receberam_orientacao": 5520645,
+        "nao_receberam": 23545467,
+        "percentual": 19.0
+      },
+      "regioes": [
+        {
+          "regiao": "Norte",
+          "orientaram": 546383,
+          "nao_orientaram": 2438753,
+          "total": 2985136,
+          "percentual": 18.3
+        },
+        {
+          "regiao": "Nordeste",
+          "orientaram": 1321743,
+          "nao_orientaram": 6142888,
+          "total": 7464631,
+          "percentual": 17.7
+        },
+        {
+          "regiao": "Sudeste",
+          "orientaram": 2194654,
+          "nao_orientaram": 9726194,
+          "total": 11920848,
+          "percentual": 18.4
+        },
+        {
+          "regiao": "Sul",
+          "orientaram": 938243,
+          "nao_orientaram": 3276514,
+          "total": 4214757,
+          "percentual": 22.3
+        },
+        {
+          "regiao": "Centro-Oeste",
+          "orientaram": 519622,
+          "nao_orientaram": 1961118,
+          "total": 2480740,
+          "percentual": 20.9
+        }
+      ],
+      "etapas": [
+        {
+          "etapa": "Anos iniciais do Ensino Fundamental (4º e 5º ano)",
+          "orientaram": 1226706,
+          "nao_orientaram": 10267190,
+          "total": 11493896,
+          "percentual": 10.7
+        },
+        {
+          "etapa": "Anos finais do Ensino Fundamental",
+          "orientaram": 1928420,
+          "nao_orientaram": 8376141,
+          "total": 10304561,
+          "percentual": 18.7
+        },
+        {
+          "etapa": "Ensino Médio",
+          "orientaram": 2365519,
+          "nao_orientaram": 4902136,
+          "total": 7267655,
+          "percentual": 32.5
+        }
+      ],
+      "areas": [
+        {
+          "area": "Urbana",
+          "orientaram": 5186582,
+          "nao_orientaram": 21176930,
+          "total": 26363512,
+          "percentual": 19.7
+        },
+        {
+          "area": "Rural",
+          "orientaram": 334063,
+          "nao_orientaram": 2368537,
+          "total": 2702600,
+          "percentual": 12.4
+        }
+      ],
+      "dependencias": [
+        {
+          "dependencia": "Municipal",
+          "orientaram": 1400726,
+          "nao_orientaram": 10786461,
+          "total": 12187187,
+          "percentual": 11.5
+        },
+        {
+          "dependencia": "Estadual",
+          "orientaram": 2768193,
+          "nao_orientaram": 8778519,
+          "total": 11546712,
+          "percentual": 24.0
+        },
+        {
+          "dependencia": "Públicas (Municipal, Estadual e Federal)",
+          "orientaram": 4274434,
+          "nao_orientaram": 19712747,
+          "total": 23987181,
+          "percentual": 17.8
+        },
+        {
+          "dependencia": "Particular",
+          "orientaram": 1246210,
+          "nao_orientaram": 3832720,
+          "total": 5078930,
+          "percentual": 24.5
+        }
+      ]
+    }
+  }
+}

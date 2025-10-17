@@ -1,0 +1,117 @@
+{
+  "aba": "H4D",
+  "indicador": "Alunos que receberam orientação de professores sobre uso de IA (últimos 3 meses)",
+  "fonte": "TIC Educação 2024 - Alunos",
+  "brasil": {
+    "total_alunos": 29066112,
+    "receberam_orientacao": 5520645,
+    "nao_receberam": 23545467,
+    "percentual": 19.0
+  },
+  "regioes": [
+    {
+      "regiao": "Norte",
+      "orientaram": 546383,
+      "nao_orientaram": 2438753,
+      "total": 2985136,
+      "percentual": 18.3
+    },
+    {
+      "regiao": "Nordeste",
+      "orientaram": 1321743,
+      "nao_orientaram": 6142888,
+      "total": 7464631,
+      "percentual": 17.7
+    },
+    {
+      "regiao": "Sudeste",
+      "orientaram": 2194654,
+      "nao_orientaram": 9726194,
+      "total": 11920848,
+      "percentual": 18.4
+    },
+    {
+      "regiao": "Sul",
+      "orientaram": 938243,
+      "nao_orientaram": 3276514,
+      "total": 4214757,
+      "percentual": 22.3
+    },
+    {
+      "regiao": "Centro-Oeste",
+      "orientaram": 519622,
+      "nao_orientaram": 1961118,
+      "total": 2480740,
+      "percentual": 20.9
+    }
+  ],
+  "etapas": [
+    {
+      "etapa": "Anos iniciais do Ensino Fundamental (4º e 5º ano)",
+      "orientaram": 1226706,
+      "nao_orientaram": 10267190,
+      "total": 11493896,
+      "percentual": 10.7
+    },
+    {
+      "etapa": "Anos finais do Ensino Fundamental",
+      "orientaram": 1928420,
+      "nao_orientaram": 8376141,
+      "total": 10304561,
+      "percentual": 18.7
+    },
+    {
+      "etapa": "Ensino Médio",
+      "orientaram": 2365519,
+      "nao_orientaram": 4902136,
+      "total": 7267655,
+      "percentual": 32.5
+    }
+  ],
+  "areas": [
+    {
+      "area": "Urbana",
+      "orientaram": 5186582,
+      "nao_orientaram": 21176930,
+      "total": 26363512,
+      "percentual": 19.7
+    },
+    {
+      "area": "Rural",
+      "orientaram": 334063,
+      "nao_orientaram": 2368537,
+      "total": 2702600,
+      "percentual": 12.4
+    }
+  ],
+  "dependencias": [
+    {
+      "dependencia": "Municipal",
+      "orientaram": 1400726,
+      "nao_orientaram": 10786461,
+      "total": 12187187,
+      "percentual": 11.5
+    },
+    {
+      "dependencia": "Estadual",
+      "orientaram": 2768193,
+      "nao_orientaram": 8778519,
+      "total": 11546712,
+      "percentual": 24.0
+    },
+    {
+      "dependencia": "Públicas (Municipal, Estadual e Federal)",
+      "orientaram": 4274434,
+      "nao_orientaram": 19712747,
+      "total": 23987181,
+      "percentual": 17.8
+    },
+    {
+      "dependencia": "Particular",
+      "orientaram": 1246210,
+      "nao_orientaram": 3832720,
+      "total": 5078930,
+      "percentual": 24.5
+    }
+  ]
+}

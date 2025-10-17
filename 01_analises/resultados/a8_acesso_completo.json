@@ -1,0 +1,65 @@
+{
+  "aba": "A8",
+  "indicador": "Acesso a Computador + Internet para Alunos",
+  "fonte": "TIC Educação 2024 - Escolas",
+  "brasil": {
+    "total_escolas": 129973,
+    "com_acesso": 76419,
+    "sem_acesso": 53554,
+    "pct_com_acesso": 58.8,
+    "pct_sem_acesso": 41.2
+  },
+  "regioes": [
+    {
+      "regiao": "Norte",
+      "com_acesso": 5517,
+      "sem_acesso": 14008,
+      "total": 19525,
+      "percentual": 28.3
+    },
+    {
+      "regiao": "Nordeste",
+      "com_acesso": 20546,
+      "sem_acesso": 29035,
+      "total": 49581,
+      "percentual": 41.4
+    },
+    {
+      "regiao": "Sudeste",
+      "com_acesso": 30634,
+      "sem_acesso": 6844,
+      "total": 37478,
+      "percentual": 81.7
+    },
+    {
+      "regiao": "Sul",
+      "com_acesso": 14034,
+      "sem_acesso": 1629,
+      "total": 15663,
+      "percentual": 89.6
+    },
+    {
+      "regiao": "Centro-Oeste",
+      "com_acesso": 5689,
+      "sem_acesso": 2037,
+      "total": 7726,
+      "percentual": 73.6
+    }
+  ],
+  "areas": [
+    {
+      "area": "Urbana",
+      "com_acesso": 63094,
+      "sem_acesso": 19927,
+      "total": 83021,
+      "percentual": 76.0
+    },
+    {
+      "area": "Rural",
+      "com_acesso": 13325,
+      "sem_acesso": 33627,
+      "total": 46952,
+      "percentual": 28.4
+    }
+  ]
+}

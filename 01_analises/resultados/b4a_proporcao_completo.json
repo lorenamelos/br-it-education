@@ -1,0 +1,74 @@
+{
+  "aba": "B4A",
+  "indicador": "Proporção Alunos por Computador Disponível",
+  "fonte": "TIC Educação 2024 - Escolas",
+  "brasil": {
+    "total_escolas": 115218,
+    "proporcao_adequada": 27499,
+    "proporcao_inadequada": 24460,
+    "sem_computador": 63259,
+    "pct_adequada": 23.9,
+    "pct_inadequada": 21.2,
+    "pct_sem": 54.9
+  },
+  "regioes": [
+    {
+      "regiao": "Norte",
+      "total": 13087,
+      "proporcao_adequada": 1947,
+      "proporcao_inadequada": 4021,
+      "sem_computador": 7119,
+      "percentual_adequada": 14.9
+    },
+    {
+      "regiao": "Nordeste",
+      "total": 42897,
+      "proporcao_adequada": 4611,
+      "proporcao_inadequada": 8025,
+      "sem_computador": 30261,
+      "percentual_adequada": 10.7
+    },
+    {
+      "regiao": "Sudeste",
+      "total": 36410,
+      "proporcao_adequada": 12870,
+      "proporcao_inadequada": 8793,
+      "sem_computador": 14747,
+      "percentual_adequada": 35.3
+    },
+    {
+      "regiao": "Sul",
+      "total": 15323,
+      "proporcao_adequada": 6746,
+      "proporcao_inadequada": 1233,
+      "sem_computador": 7344,
+      "percentual_adequada": 44.0
+    },
+    {
+      "regiao": "Centro-Oeste",
+      "total": 7501,
+      "proporcao_adequada": 1326,
+      "proporcao_inadequada": 2388,
+      "sem_computador": 3787,
+      "percentual_adequada": 17.7
+    }
+  ],
+  "areas": [
+    {
+      "area": "Urbana",
+      "total": 82882,
+      "proporcao_adequada": 22957,
+      "proporcao_inadequada": 19144,
+      "sem_computador": 40781,
+      "percentual_adequada": 27.7
+    },
+    {
+      "area": "Rural",
+      "total": 32334,
+      "proporcao_adequada": 4542,
+      "proporcao_inadequada": 5314,
+      "sem_computador": 22478,
+      "percentual_adequada": 14.0
+    }
+  ]
+}

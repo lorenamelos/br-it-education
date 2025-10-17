@@ -1,0 +1,69 @@
+{
+  "aba": "A3_1",
+  "indicador": "Velocidade da Principal Conexão de Internet",
+  "fonte": "TIC Educação 2024 - Escolas",
+  "brasil": {
+    "total_escolas": 99018,
+    "conexao_rapida": 59027,
+    "conexao_media": 16833,
+    "conexao_lenta": 23158,
+    "conexao_adequada_ia": 75860,
+    "pct_adequada": 76.6,
+    "pct_rapida": 59.6,
+    "pct_media": 17.0,
+    "pct_lenta": 23.4
+  },
+  "regioes": [
+    {
+      "regiao": "Norte",
+      "total": 12909,
+      "conexao_adequada": 6100,
+      "conexao_inadequada": 6809,
+      "percentual_adequada": 47.3
+    },
+    {
+      "regiao": "Nordeste",
+      "total": 38097,
+      "conexao_adequada": 28715,
+      "conexao_inadequada": 9382,
+      "percentual_adequada": 75.4
+    },
+    {
+      "regiao": "Sudeste",
+      "total": 27828,
+      "conexao_adequada": 23354,
+      "conexao_inadequada": 4474,
+      "percentual_adequada": 83.9
+    },
+    {
+      "regiao": "Sul",
+      "total": 13932,
+      "conexao_adequada": 12222,
+      "conexao_inadequada": 1710,
+      "percentual_adequada": 87.7
+    },
+    {
+      "regiao": "Centro-Oeste",
+      "total": 6253,
+      "conexao_adequada": 5469,
+      "conexao_inadequada": 784,
+      "percentual_adequada": 87.5
+    }
+  ],
+  "areas": [
+    {
+      "area": "Urbana",
+      "total": 67201,
+      "conexao_adequada": 60104,
+      "conexao_inadequada": 7097,
+      "percentual_adequada": 89.4
+    },
+    {
+      "area": "Rural",
+      "total": 31819,
+      "conexao_adequada": 15757,
+      "conexao_inadequada": 16062,
+      "percentual_adequada": 49.5
+    }
+  ]
+}

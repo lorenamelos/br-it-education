@@ -1,0 +1,85 @@
+# ============================================================================
+# Data Files - Too large for GitHub
+# ============================================================================
+
+# Excel files (ALWAYS ignore - too large)
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+
+# ============================================================================
+# CSV Files Strategy
+# ============================================================================
+
+# IGNORE intermediate/consolidated CSVs
+02_clustering_project/dados_processados/escolas_2024_consolidado.csv
+02_clustering_project/dados_processados/regioes_preparado_para_clustering.csv
+02_clustering_project/dados_processados/sheets_individuais/
+
+# KEEP small result CSVs
+!01_analises/resultados/*.csv
+!02_clustering_project/dados_processados/resultados_clustering.csv
+
+# ============================================================================
+# JSON Files
+# ============================================================================
+
+# Keep small result JSONs
+!01_analises/resultados/*.json
+!02_clustering_project/dados_processados/metadados.json
+
+# Ignore large consolidated JSONs if any
+*_consolidado.json
+
+# ============================================================================
+# Python
+# ============================================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================================================
+# IDEs
+# ============================================================================
+
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+
+# ============================================================================
+# OS Files
+# ============================================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*~
+
+# ============================================================================
+# Logs and temp
+# ============================================================================
+
+*.log
+*.tmp
+*.temp
+*.orig
