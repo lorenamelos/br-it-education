@@ -19,14 +19,47 @@
 └── README.md
 ```
 
-## 📥 Data Files (Not Included)
+## 📁 Files Included vs. Excluded
 
-Raw data files are **not included** in this repository due to size constraints:
+### ✅ Included in Repository:
 
-- ❌ `tic_educacao_2024_escolas_tabela_total_v1.0.xlsx` (~15 MB)
-- ❌ `escolas_2024_consolidado.csv` (~5 MB)
-- ❌ `escolas_2024_consolidado.json` (~8 MB)
-- ❌ `sheets_individuais/` folder
+**Analysis Results:**
+- `01_analises/resultados/*.csv` - Small analysis results (<1KB each)
+- `02_clustering_project/dados_processados/resultados_clustering.csv` - Final clustering results (262 bytes)
+- All JSON metadata and text reports
+
+**Visualizations:**
+- 4 PNG charts (PCA, distance matrix, dendrogram, clustering results)
+
+**Scripts:**
+- All Python scripts for data extraction, preparation, and analysis
+- Jupyter notebooks
+
+### ❌ Excluded (Can be Regenerated):
+
+**Intermediate Files:**
+- `escolas_2024_consolidado.csv` (47KB) - Regenerate with `01_extrair_dados_escolas.py`
+- `regioes_preparado_para_clustering.csv` (20KB) - Regenerate with `02_preparacao_regioes.py`
+- `sheets_individuais/*.csv` (15 files, ~120KB total) - Regenerate with extraction script
+
+**Raw Data:**
+- `*.xlsx` files - Download from [CETIC.br](https://cetic.br/pt/arquivos/educacao/2024/)
+
+### 🔄 To Reproduce All Files:
+```bash
+# 1. Get the raw data (place in project root)
+# Download from CETIC.br
+
+# 2. Run the pipeline
+python 02_clustering_project/01_extrair_dados_escolas.py
+python 02_clustering_project/02_preparacao_regioes.py
+python 02_clustering_project/03_clustering_regioes.py
+
+# All intermediate files will be regenerated
+```
+
+**Total repository size:** ~2-3 MB (mostly visualizations)
+**Excluded data size:** ~20-50 MB (downloadable from source)
 
 ### To reproduce the analysis:
 
